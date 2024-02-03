@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.product-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-details {
+    display: flex;
+}
+
+.product-images {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.thumbnails-container img {
+    width: 60px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+#mainImage {
+    max-width: 90%;
+    border-radius: 10px;
+    height: auto;
+}
+
+.product-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.product-info h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.price {
+    font-size: 18px;
+    color: #e44d26;
+}
+
+.color-options, .size-options {
+    margin-top: 10px;
+}
+
+.size-options select {
+    padding: 8px;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.delivery-info {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-info,
+.legal-links,
+.social-media {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}

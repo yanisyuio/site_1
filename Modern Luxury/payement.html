@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Modern Luxury</title>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+        <div class="back-arrow"><a href="commande.html">&#8592; Retour</a></div>
+        <img class="logo" src="logo.JPG" alt="logo">
+        <div class="menu">
+            <a href="index.html">Accueil</a>
+        </div>
+    </div>
+</header>  
+  <div class="order-summary">
+    <h2>Récapitulatif de la Commande</h2>
+    <ul>
+        <li>Veste Chauffante Noir</li>
+        <label for="size"></label>
+        <input type="text" id="size" name="size" placeholder=" Taille disponible: S | M | L" required>
+        <li>Livraison: 4-8 jours ouvrés</li>
+        <li>Prix: 39,99 €</li>
+    </ul>
+</div>
+<div class="card-container">
+    <h2>Finaliser le Paiement</h2>
+    <div class="payment-form">
+        <label for="cardNumber">Numéro de Carte</label>
+        <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9012 3456" required>
+
+        <label for="cardHolder">Titulaire de la Carte</label>
+        <input type="text" id="cardHolder" name="cardHolder" placeholder="Prénom Nom" required>
+
+        <div class="card-details">
+            <div>
+                <label for="expiryDate">Date d'Expiration</label>
+                <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/AA" required>
+            </div>
+            <div>
+                <label for="cvc">CVC</label>
+                <input type="text" id="cvc" name="cvc" placeholder="123" required>
+            </div>
+        </div>
+
+        <button type="button">Procéder au Paiement</button>
+    </div>
+</div>
+  </main>
+  <footer class="site-footer">
+    <div class="contact-info">
+        <h3>Contact</h3>
+        <p>Email : Illuminate.note@gmail.com</p>
+    </div>
+
+    <div class="legal-links">
+        <h3>Liens Légaux</h3>
+        <ul>
+            <li><a href="politque_confidentialite.html">Politique de Confidentialité</a></li>
+            <li><a href="#">A propos de nous</a></li>
+        </ul>
+    </div>
+
+    <div class="social-media">
+        <h3>Suivez-nous</h3>
+        <ul>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+        </ul>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html> 

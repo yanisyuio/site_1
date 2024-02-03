@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <title>Modern Luxury</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="back-arrow"><a href="page_produits.html">&#8592; Retour</a></div>
+            <img class="logo" src="logo.JPG" alt="logo">
+            <div class="menu">
+                <a href="index.html">Accueil</a>
+            </div>
+        </div>
+    </header>  
+    <section class="section_commande">
+        <h1>Vos Informations</h1>
+        <form action="process_commande.php" method="post">
+            <label for="nom"></label>
+            <input type="text" id="nom" name="nom" placeholder="Nom" required>
+            
+            <label for="prenom"></label>
+            <input type="text" id="prenom" name="prenom" placeholder="Prénom" required>
+
+            <label for="adresse"></label>
+            <input type="texte" id="adresse" name="adresse" placeholder="Adresse"required>
+
+            <label for="numero"></label>
+            <input type="number" id="numero" name="numero" placeholder="Numéro de téléphone" required>
+
+            <label for="ville"></label>
+            <input type="text" id="ville" name="ville" placeholder="Ville" required>
+
+            <label for="code_postal"></label>
+            <input type="number" id="code_postal" name="code_postal" placeholder="Code Postal" required>
+
+            <label for="pays"></label>
+            <select id="pays" name="pays" required>
+                <option value="pays" selected>Pays</option>
+                <option value="allemagne">🇩🇪 Allemagne</option>
+                <option value="autriche">🇦🇹 Autriche</option>
+                <option value="belgique">🇧🇪 Belgique</option>
+                <option value="bulgarie">🇧🇬 Bulgarie</option>
+                <option value="chypres">🇨🇾 Chypres</option>
+                <option value="croatie">🇭🇷 Croatie</option>
+                <option value="danemark">🇩🇰 Danemark</option>
+                <option value="espagne">🇪🇸 Espagne</option>
+                <option value="estonie">🇪🇪 Estonie</option>
+                <option value="finland">🇫🇮 Finlande</option>
+                <option value="france">🇫🇷 France</option>
+                <option value="grece">🇬🇷 Grèce</option>
+                <option value="hongrie">🇭🇺 Hongrie</option>
+                <option value="irlande">🇮🇪 Irlande</option>
+                <option value="italie">🇮🇹 Italie</option>
+                <option value="lettonie">🇱🇻 Lettonie</option>
+                <option value="liechtenstein">🇱🇮 Liechtenstein</option>
+                <option value="lituanie">🇱🇹 Lituanie</option>
+                <option value="luxembourg">🇱🇺 Luxembourg</option>
+                <option value="malte">🇲🇹 Malte</option>
+                <option value="pays_bas">🇳🇱 Pays-Bas</option>
+                <option value="pologne">🇵🇱 Pologne</option>
+                <option value="portugal">🇵🇹 Portugal</option>
+                <option value="rep_tcheque">🇨🇿 Rep. Tchèque</option>
+                <option value="roumanie">🇷🇴 Roumanie</option>
+                <option value="slovaquie">🇸🇰 Slovaquie</option>
+                <option value="slovenie">🇸🇮 Slovénie</option>
+                <option value="suede">🇸🇪 Suède</option>                
+            </select>
+            <a href="payement.html"><div class="button_payement">Payement par CB</div></a>
+        </form>
+    </section>
+    <footer class="site-footer">
+        <div class="contact-info">
+            <h3>Contact</h3>
+            <p>Email : Illuminate.note@gmail.com</p>
+        </div>
+    
+        <div class="legal-links">
+            <h3>Liens Légaux</h3>
+            <ul>
+                <li><a href="politque_confidentialite.html">Politique de Confidentialité</a></li>
+                <li><a href="#">A propos de nous</a></li>
+            </ul>
+        </div>
+    
+        <div class="social-media">
+            <h3>Suivez-nous</h3>
+            <ul>
+                <li><a href="#" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
